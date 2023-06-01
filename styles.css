@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Source+Serif+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.sidebar {
+  background-color: rgb(204, 223, 207);
+  /* width: 20px; */
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 30PX 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: rgb(192, 214, 196); */
+  width: 90vw;
+  /* font-size: 35px; */
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  /* background-color: rgb(192, 214, 196); */
+  height: 60vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+.hello {
+  font-size: 50px;
+  
+}
+.name {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  margin-top: 23px;
+}
+.buttons {
+  margin-top: 34px;
+}
+.btn {
+  padding: 0px 20px;
+  color: rgb(252, 252, 255);
+  border-radius: 40px;
+  font-weight: BOLD;
+  font-size: 20px;
+  font-family: initial;
+  background: blue;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: azure;
+  color: black;
+}
+.btn-sm {
+  padding: 7px 13px;
+  font-size: 10px;
+  margin: 10px 0;
+}
+.devPic img {
+  height: 83vh;
+}
+.moreabout {
+  font-size: 25px;
+}
+.contactform {
+  padding: 15px;
+  padding-top: 100px;
+  padding-left: 0 34px;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 10px 0px;
+  padding-bottom: 100px;
+  padding-top: 15px;
+}
+.contactform h1 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: auto;
+}
+.contactform form div {
+  margin-left: 25px;
+  padding: 21px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+.blogItem {
+  margin: 20px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px 0;
+  margin: 20px;
+}
+.blogContainer h2 {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px 0;
+  margin: 20px;
+}
+.blogContainer h4 {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px 0;
+  margin: 20px;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+  padding: 20px 25px;
+  padding-top: 25px;
+}
+.intro h2 {
+  font-family: "Fira Sans", Verdana;
+  padding: 30px 30px;
+}
+.intro p {
+  font-family: "Fira Sans", sans-serif;
+  padding: 20px 25px;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 900px;
+}
+.skill {
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+.hundred {
+  width: 265px;
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+.fifty {
+  width: 125px;
+  background-color: blue;
+  border: 10px;
+  border: 2px solid black;
+}
+.tfive {
+  width: 75px;
+  background-color: green;
+}
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  margin-top: 10px;
+}
+.cross {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+@media (max-width: 1480px) {
+  * {
+    /* background-color: rgb(242, 123, 161); */
+  }
+  .devPic{
+    display: none;
+  }
+  /* .sidebar {
+    transform: translate(-443px, 0px);
+    position: absolute;
+  } */
+}
